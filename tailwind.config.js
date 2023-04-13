@@ -4,12 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    colors: {
-      'peach': {
-        100: '#fcd19c',
-        200: '#f3c081',
+    extend: {
+      colors: {
+        'peach': {
+          100: '#fcd19c',
+          200: '#f3c081',
+        },
       },
-      // ...
     },
   },
   plugins: [],

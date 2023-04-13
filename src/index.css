@@ -4,8 +4,7 @@
 
 body{
   min-height: 100vh;
-  background-color: #f9f9f9;
   font-family: 'Poppins', sans-serif;
-}
+};
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
