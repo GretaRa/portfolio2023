@@ -1,8 +1,10 @@
 import { AiFillGithub, AiOutlineRocket } from "react-icons/ai";
 
-const Project = ({thing}) => {
+const Project = ({ thing }) => {
 	return (
-		<div className={`border-2 border-black flex flex-col lg:gap-12 gap-5 ${thing} lg:flex-row mx-auto p-5 rounded`}>
+		<div
+			className={`border-2 border-black flex flex-col lg:gap-12 gap-5 ${thing} lg:flex-row mx-auto p-5 rounded`}
+		>
 			<img
 				className="h-80 rounded object-cover"
 				src="https://i.imgur.com/VrRcVOe.png"
