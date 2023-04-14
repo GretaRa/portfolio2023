@@ -9,9 +9,9 @@ import {
 
 const About = () => {
 	return (
-		<div className="grid grid-cols-1 lg:grid-cols-2 text-center p-6 bg-peach-100 border-b-2 border-black">
+		<div className="grid grid-cols-1 lg:grid-cols-2 gap-10 text-center p-10 bg-peach-100 border-b-2 border-black">
 			<div className="max-w-lg mx-auto">
-				<p className="text-2xl p-5">About Me</p>
+				<p className="text-2xl pb-10">About Me</p>
 				<p>
 					I am a self taught front-end developer based in The Netherlands. I
 					enjoy solving real-world problems with clean and maintainable code.
@@ -28,25 +28,25 @@ const About = () => {
 				</p>
 			</div>
 			<div>
-				<p className="text-2xl p-5">Technologies</p>
-				<div className="text-2xl grid grid-cols-3">
-					<p className="flex flex-col items-center text-lg">
+				<p className="text-2xl pb-10">My skills</p>
+				<div className="grid grid-cols-3 gap-5 lg:text-lg">
+					<p className="flex flex-col items-center">
 						<SiHtml5 className="inline-block text-5xl" /> Html5
 					</p>
-					<p className="flex flex-col items-center text-lg">
+					<p className="flex flex-col items-center">
 						<SiCss3 className="inline-block text-5xl" /> CSS3
 					</p>
-					<p className="flex flex-col items-center text-lg">
+					<p className="flex flex-col items-center">
 						<SiJavascript className="inline-block text-5xl" /> JavaScript (ES6)
 					</p>
-					<p className="flex flex-col items-center text-lg">
+					<p className="flex flex-col items-center">
 						<SiReact className="inline-block text-5xl" /> React
 					</p>
-					<p className="flex flex-col items-center text-lg">
+					<p className="flex flex-col items-center">
 						<SiTailwindcss className="inline-block text-5xl" />
 						Tailwind
 					</p>
-					<p className="flex flex-col items-center text-lg">
+					<p className="flex flex-col items-center">
 						<SiWebpack className="inline-block text-5xl" />
 						Webpack
 					</p>

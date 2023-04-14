@@ -11,7 +11,7 @@ const Hero = () => {
 				<div>
 					<p className="pb-3">Hi, I'm Greta</p>
 					<p className="font-semibold ">Front-end developer</p>
-					<span className="flex gap-4 mt-2">
+					<span className="flex gap-4 mt-2 items-center">
 						<a
 							href="https://github.com/GretaRa"
 							target={"_blank"}
@@ -26,7 +26,7 @@ const Hero = () => {
 						>
 							<AiFillLinkedin />
 						</a>
-						<button className="bg-peach-200 px-2 rounded-lg text-2xl">
+						<button className="bg-peach-200 px-2 rounded-lg text-xl lg:text-3xl border-black border-2">
 							Resume <AiOutlineDownload className="inline-block" />
 						</button>
 					</span>
