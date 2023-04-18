@@ -10,22 +10,24 @@ import {
 const About = () => {
 	return (
 		<div className="grid grid-cols-1 lg:grid-cols-2 gap-10 text-center p-10 bg-peach-100 border-b-2 border-black">
-			<div className="max-w-lg mx-auto">
+			<div className="max-w-lg lg:max-w-2xl mx-auto">
 				<p className="text-2xl pb-10">About Me</p>
-				<p>
-					I am a self taught front-end developer based in The Netherlands. I
-					enjoy solving real-world problems with clean and maintainable code.
-				</p>
-				<p className="hidden lg:block">
-					My interest in web development started in early 2022. Since then, I
-					have done quite a lot, including teaching myself web development and
-					its best practices, building several fun and exciting projects, and
-					finding easy-to-understand solutions.
-				</p>
-				<p className="hidden lg:block">
-					Apart from that, I love spending time in nature, watching popular
-					movies and playing some video games.
-				</p>
+				<div className="flex flex-col gap-4 text-lg">
+					<p>
+						I am a self taught front-end developer based in The Netherlands. I
+						enjoy solving real-world problems with clean and maintainable code.
+					</p>
+					<p className="hidden lg:block">
+						My interest in web development sparked in early 2022, and since
+						then, I've made significant progress. I've learned to create
+						responsive, interactive websites, built several exciting projects,
+						and mastered development tools such as React.
+					</p>
+					<p className="hidden lg:block">
+						When I'm not immersed in code, I enjoy spending time in my garden or
+						exploring new worlds in video games.
+					</p>
+				</div>
 			</div>
 			<div>
 				<p className="text-2xl pb-10">My skills</p>
