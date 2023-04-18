@@ -9,6 +9,7 @@ module.exports = {
         'peach': {
           100: '#fcd19c',
           200: '#f3c081',
+          300: '#ee9c38',
         },
       },
     },

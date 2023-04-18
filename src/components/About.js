@@ -32,23 +32,23 @@ const About = () => {
 			<div>
 				<p className="text-2xl pb-10">My skills</p>
 				<div className="grid grid-cols-3 gap-5 lg:text-lg">
-					<p className="flex flex-col items-center">
+					<p className="flex flex-col items-center transform hover:scale-125 duration-500 ease-in-out">
 						<SiHtml5 className="inline-block text-5xl" /> Html5
 					</p>
-					<p className="flex flex-col items-center">
+					<p className="flex flex-col items-center transform hover:scale-125 duration-500 ease-in-out">
 						<SiCss3 className="inline-block text-5xl" /> CSS3
 					</p>
-					<p className="flex flex-col items-center">
+					<p className="flex flex-col items-center transform hover:scale-125 duration-500 ease-in-out">
 						<SiJavascript className="inline-block text-5xl" /> JavaScript (ES6)
 					</p>
-					<p className="flex flex-col items-center">
+					<p className="flex flex-col items-center transform hover:scale-125 duration-500 ease-in-out">
 						<SiReact className="inline-block text-5xl" /> React
 					</p>
-					<p className="flex flex-col items-center">
+					<p className="flex flex-col items-center transform hover:scale-125 duration-500 ease-in-out">
 						<SiTailwindcss className="inline-block text-5xl" />
 						Tailwind
 					</p>
-					<p className="flex flex-col items-center">
+					<p className="flex flex-col items-center transform hover:scale-125 duration-500 ease-in-out">
 						<SiWebpack className="inline-block text-5xl" />
 						Webpack
 					</p>

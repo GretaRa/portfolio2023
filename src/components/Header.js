@@ -1,20 +1,17 @@
 const Header = () => {
 	return (
 		<>
-			<header className="bg-peach-100 p-6 border-peach-200">
+			<header className="bg-peach-100 p-5 border-peach-200">
 				<nav>
-					<ul className="flex justify-end content-center gap-10 mr-10 text-lg ">
-						<li>
+					<ul className="flex justify-end content-center gap-10 mr-10 text-lg lg:text-xl ">
+						<li className="transform hover:scale-125 duration-500 ease-in-out">
 							<a href="index.html">Home</a>
 						</li>
-						<li>
+						<li className="transform hover:scale-125 duration-500 ease-in-out">
 							<a href="index.html">About</a>
 						</li>
-						<li>
+						<li className="transform hover:scale-125 duration-500 ease-in-out">
 							<a href="index.html">Projects</a>
-						</li>
-						<li>
-							<a href="index.html">Contact</a>
 						</li>
 					</ul>
 				</nav>

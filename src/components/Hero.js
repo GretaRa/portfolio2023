@@ -7,7 +7,7 @@ import {
 const Hero = () => {
 	return (
 		<>
-			<section className="md:bg-slate-500 border-y-2 border-black min-h-screen flex flex-col-reverse lg:flex-row justify-center lg:justify-evenly gap-4 p-11 items-center text-3xl md:text-3xl lg:text-5xl ">
+			<section className=" border-y-2 border-black min-h-screen flex flex-col-reverse lg:flex-row justify-center lg:justify-evenly gap-4 p-11 items-center text-3xl md:text-3xl lg:text-4xl xl:text-5xl">
 				<div>
 					<p className="pb-3">Hi, I'm Greta</p>
 					<p className="font-semibold ">Front-end developer</p>
@@ -26,13 +26,13 @@ const Hero = () => {
 						>
 							<AiFillLinkedin />
 						</a>
-						<button className="bg-peach-200 px-2 rounded-lg text-xl lg:text-3xl border-black border-2">
+						<button className="bg-peach-200 px-2 rounded-lg text-xl lg:text-3xl border-black border-2 transform hover:scale-110 duration-500 ease-in-out">
 							Resume <AiOutlineDownload className="inline-block" />
 						</button>
 					</span>
 				</div>
 				<img
-					className="lg:max-w-lg max-w-xs max-h border-black border-4"
+					className="xl:max-w-lg lg:max-w-md max-w-xs max-h border-black border-4"
 					src="https://i.imgur.com/VrRcVOe.png"
 					alt="girl coding in a a coffee shop"
 				/>
