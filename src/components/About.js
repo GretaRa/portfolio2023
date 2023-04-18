@@ -16,13 +16,13 @@ const About = () => {
 					I am a self taught front-end developer based in The Netherlands. I
 					enjoy solving real-world problems with clean and maintainable code.
 				</p>
-				<p className="hidden md:block">
+				<p className="hidden lg:block">
 					My interest in web development started in early 2022. Since then, I
 					have done quite a lot, including teaching myself web development and
 					its best practices, building several fun and exciting projects, and
 					finding easy-to-understand solutions.
 				</p>
-				<p className="hidden md:block">
+				<p className="hidden lg:block">
 					Apart from that, I love spending time in nature, watching popular
 					movies and playing some video games.
 				</p>

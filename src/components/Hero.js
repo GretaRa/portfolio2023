@@ -7,7 +7,7 @@ import {
 const Hero = () => {
 	return (
 		<>
-			<section className="border-y-2 border-black min-h-screen flex flex-col-reverse lg:flex-row justify-center lg:justify-evenly gap-4 p-11 items-center text-3xl md:text-3xl lg:text-5xl ">
+			<section className="md:bg-slate-500 border-y-2 border-black min-h-screen flex flex-col-reverse lg:flex-row justify-center lg:justify-evenly gap-4 p-11 items-center text-3xl md:text-3xl lg:text-5xl ">
 				<div>
 					<p className="pb-3">Hi, I'm Greta</p>
 					<p className="font-semibold ">Front-end developer</p>
