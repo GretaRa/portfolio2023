@@ -1,5 +1,5 @@
 import Project from "./Project";
-import portfolioScreenshot from "../images/portfolioscreenshot.png";
+import memoryGame from "../images/memoryGame.png";
 import weatherAppScreenshot from "../images/weatherapp.png";
 import rockPaperScissorsScreenshot from "../images/rockPaperScissors.png"
 
@@ -10,13 +10,13 @@ const ProjectsGrid = () => {
 			<div className=" grid grid-cols-1 gap-10 m-5">
 				{/* Pass prop reverse="lg:flex-row-reverse" to every other card  */}
 				<Project
-					imgSrc={portfolioScreenshot}
-					title={"PORTFOLIO"}
+					imgSrc={memoryGame}
+					title={"MEMORY CARDS GAME"}
 					description={
-						"My personal portfolio website to introduce myself and show off my projects."
+						"A simple memory game with cards featuring plant pictures. The game is made with React as a part of The Odin Project curriculum."
 					}
-					github={"https://github.com/GretaRa/portfolio2023"}
-					liveDemo={"https://gretara.github.io/portfolio2023/"}
+					github={"https://github.com/GretaRa/memory-game"}
+					liveDemo={"https://gretara.github.io/memory-game/"}
 				/>
 				<Project
 					reverse="lg:flex-row-reverse"
