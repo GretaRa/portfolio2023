@@ -5,13 +5,14 @@ import About from './components/About';
 import Footer from './components/Footer';
 import ProjectsGrid from './components/ProjectsGrid';
 
+
 function App() {
   return (
     <div className="App">
       <Header />
-      <Hero />
-      <About />
-      <ProjectsGrid />
+      <section id="home"><Hero /></section>
+      <section id="about"><About /></section>
+      <section id="projects"><ProjectsGrid /></section>
       <Footer />
     </div>
   );
