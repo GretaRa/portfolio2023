@@ -5,7 +5,6 @@ import About from './components/About';
 import Footer from './components/Footer';
 import ProjectsGrid from './components/ProjectsGrid';
 
-
 function App() {
   return (
     <div className="App">

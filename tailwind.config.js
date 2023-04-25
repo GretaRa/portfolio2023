@@ -14,8 +14,12 @@ module.exports = {
       },
       borderRadius: {
         customHero: '54% 46% 31% 69% / 48% 49% 51% 52%',
-        customHeroHover: '69% 31% 56% 44% / 37% 56% 44% 63% '
+        customHeroHover: '69% 31% 56% 44% / 37% 56% 44% 63% ',
+        customAbout: '68% 32% 44% 56% / 55% 75% 25% 45%',
       },
+      // backgroundImage: {
+      //   'section-pattern': "url('./images/wave-haikei .svg')",
+      // },
     },
   },
   plugins: [],
