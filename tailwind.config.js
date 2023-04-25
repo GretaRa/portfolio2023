@@ -12,6 +12,10 @@ module.exports = {
           300: '#ee9c38',
         },
       },
+      borderRadius: {
+        customHero: '54% 46% 31% 69% / 48% 49% 51% 52%',
+        customHeroHover: '69% 31% 56% 44% / 37% 56% 44% 63% '
+      },
     },
   },
   plugins: [],

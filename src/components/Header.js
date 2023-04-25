@@ -6,17 +6,17 @@ const Header = () => {
 			<header className="bg-peach-100 p-5 border-peach-200">
 				<nav>
 					<ul className="flex justify-end content-center gap-10 mr-10 text-lg lg:text-xl ">
-						<li className="transform hover:scale-125 duration-500 ease-in-out cursor-pointer">
+						<li className="transform hover:scale-125 duration-300 ease-in-out cursor-pointer">
 						<Link activeClass="active" smooth spy to="home">
                 Home
               </Link>
 						</li>
-						<li className="transform hover:scale-125 duration-500 ease-in-out cursor-pointer">
+						<li className="transform hover:scale-125 duration-300 ease-in-out cursor-pointer">
 						<Link activeClass="active" smooth spy to="about">
                 About
               </Link>
 						</li>
-						<li className="transform hover:scale-125 duration-500 ease-in-out cursor-pointer">
+						<li className="transform hover:scale-125 duration-300 ease-in-out cursor-pointer">
 						<Link activeClass="active" smooth spy to="projects">
                 Projects
               </Link>
