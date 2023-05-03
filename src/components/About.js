@@ -4,7 +4,7 @@ const About = () => {
 		<div className="text-center p-10">
 			<div className="max-w-lg lg:max-w-2xl mx-auto min-h-screen">
 				<p className="text-xl pb-10 underline underline-offset-4">About Me</p>
-				<div className="flex flex-col gap-4 text-xl ">
+				<div className="flex flex-col gap-4 text-xl">
 					<p>
 						I am a self taught front-end developer based in The Netherlands. I
 						enjoy solving real-world problems with clean and maintainable code.
