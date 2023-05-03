@@ -1,7 +1,7 @@
 import Project from "./Project";
 import memoryGame from "../images/memoryGame.png";
 import weatherAppScreenshot from "../images/weatherapp.png";
-import rockPaperScissorsScreenshot from "../images/rockPaperScissors.png"
+import rockPaperScissorsScreenshot from "../images/rockPaperScissors.png";
 
 const ProjectsGrid = () => {
 	return (
@@ -37,6 +37,17 @@ const ProjectsGrid = () => {
 					github={"https://github.com/GretaRa/RockPaperScissors"}
 					liveDemo={"https://gretara.github.io/RockPaperScissors/"}
 				/>
+				<p className="text-center text-2xl mb-10">
+					Check out more projects on{" "}
+					<a
+						href="https://github.com/GretaRa"
+						target={"_blank"}
+						rel="noreferrer"
+						className="hover:text-peach-300 text-3xl"
+					>
+						Github!
+					</a>
+				</p>
 			</div>
 		</div>
 	);

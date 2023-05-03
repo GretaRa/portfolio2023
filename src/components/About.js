@@ -1,7 +1,7 @@
 
 const About = () => {
 	return (
-		<div className="grid grid-cols-1 lg:grid-cols-2 gap-10 text-center p-10 ">
+		<div className="text-center p-10">
 			<div className="max-w-lg lg:max-w-2xl mx-auto rounded-customAbout border-2 bg-peach-100 p-20">
 				<p className="text-2xl pb-10">About Me</p>
 				<div className="flex flex-col gap-4 text-lg ">
