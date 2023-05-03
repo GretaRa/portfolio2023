@@ -6,7 +6,7 @@ import rockPaperScissorsScreenshot from "../images/rockPaperScissors.png";
 const ProjectsGrid = () => {
 	return (
 		<div>
-			<p className="text-2xl p-5 text-center">Projects</p>
+			<p className="text-2xl lg:text-3xl p-5 text-center">My projects</p>
 			<div className=" grid grid-cols-1 gap-10 m-5">
 				{/* Pass prop reverse="lg:flex-row-reverse" to every other card  */}
 				<Project

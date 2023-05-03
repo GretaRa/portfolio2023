@@ -12,11 +12,6 @@ const Header = () => {
               </Link>
 						</li>
 						<li className="transform hover:scale-125 duration-300 ease-in-out cursor-pointer">
-						<Link activeClass="active" smooth spy to="about">
-                About
-              </Link>
-						</li>
-						<li className="transform hover:scale-125 duration-300 ease-in-out cursor-pointer">
 						<Link activeClass="active" smooth spy to="projects">
                 Projects
               </Link>

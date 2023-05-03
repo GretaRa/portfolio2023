@@ -5,6 +5,7 @@ const Footer = () => {
 		<div className="flex flex-col bg-peach-100 border-t-2 border-black p-3 justify-center items-center gap-3 text-sm lg:text-lg">
 			<div className="flex gap-4 items-center">
 				<a href="https://github.com/GretaRa" target="blank">
+					
 					<AiFillGithub className="inline-block lg:text-3xl text-2xl hover:-translate-y-2 ease-in-out duration-300" />
 				</a>
 				<a
