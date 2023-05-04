@@ -37,13 +37,13 @@ const ProjectsGrid = () => {
 					github={"https://github.com/GretaRa/RockPaperScissors"}
 					liveDemo={"https://gretara.github.io/RockPaperScissors/"}
 				/>
-				<p className="text-center text-2xl mb-10">
+				<p className="text-center md:text-2xl text-lg mb-10">
 					Check out more projects on{" "}
 					<a
 						href="https://github.com/GretaRa"
 						target={"_blank"}
 						rel="noreferrer"
-						className="hover:text-peach-300 text-3xl"
+						className="hover:text-peach-300 md:text-3xl text-xl"
 					>
 						Github!
 					</a>

@@ -2,7 +2,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 
 const Footer = () => {
 	return (
-		<div className="flex flex-col bg-peach-100 border-t-2 border-black p-3 justify-center items-center gap-3 text-sm lg:text-lg">
+		<div className="flex flex-col bg-peach-100 border-t-2 border-black p-3 justify-center items-center gap-3 text-sm md:text-lg">
 			<div className="flex gap-4 items-center">
 				<a href="https://github.com/GretaRa" target="blank">
 					

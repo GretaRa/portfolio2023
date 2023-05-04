@@ -8,8 +8,8 @@ import Skills from "./Skills";
 
 const Hero = () => {
 	return (
-		<div className="min-h-screen  flex-col">
-			<section className="flex flex-col-reverse lg:flex-row justify-center lg:justify-evenly gap-4 p-11 items-center text-3xl md:text-3xl lg:text-4xl xl:text-5xl">
+		<div className="mt-10 lg:mb-40 mb-10">
+			<section className="flex flex-col-reverse lg:flex-row justify-center lg:justify-evenly gap-4 p-11 items-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
 				<div>
 					<p className="pb-3 cursor-default">Hi, I'm Greta</p>
 					<p className="cursor-default font-semibold hover:text-peach-300 transform duration-300 ease-in-out">Front-end developer</p>

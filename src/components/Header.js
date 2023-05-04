@@ -5,7 +5,7 @@ const Header = () => {
 		<>
 			<header className="bg-peach-100 p-5 border-b-2 border-black">
 				<nav>
-					<ul className="flex justify-end content-center gap-10 mr-10 text-lg lg:text-xl ">
+					<ul className="flex md:justify-end justify-center content-center gap-10 mr-10 text-lg lg:text-xl ">
 						<li className="transform hover:scale-125 duration-300 ease-in-out cursor-pointer">
 						<Link activeClass="active" smooth spy to="home">
                 Home
