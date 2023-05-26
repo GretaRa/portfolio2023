@@ -17,9 +17,6 @@ module.exports = {
         customHeroHover: '69% 31% 56% 44% / 37% 56% 44% 63% ',
         customAbout: '68% 32% 44% 56% / 55% 75% 25% 45%',
       },
-      // backgroundImage: {
-      //   'section-pattern': "url('./images/wave-haikei .svg')",
-      // },
     },
   },
   plugins: [],

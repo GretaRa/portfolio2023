@@ -6,17 +6,17 @@ const Footer = () => {
 			<div className="flex gap-4 items-center">
 				<a href="https://github.com/GretaRa" target="blank">
 					
-					<AiFillGithub className="inline-block lg:text-3xl text-2xl hover:-translate-y-2 ease-in-out duration-300" />
+					<AiFillGithub className="inline-block lg:text-3xl text-2xl hover:-translate-y-1 ease-in-out duration-300" />
 				</a>
 				<a
 					href="https://www.linkedin.com/in/greta-rakauskaite/"
 					target={"_blank"}
 					rel="noreferrer"
 				>
-					<AiFillLinkedin className="inline-block lg:text-3xl text-2xl hover:-translate-y-2 ease-in-out duration-300" />
+					<AiFillLinkedin className="inline-block lg:text-3xl text-2xl hover:-translate-y-1 ease-in-out duration-300" />
 				</a>
 				<a type="email" href="mailto:greta.rakauskaite0@gmail.com">
-					<AiFillMail className="inline-block lg:text-3xl text-2xl hover:-translate-y-2 ease-in-out duration-300" />
+					<AiFillMail className="inline-block lg:text-3xl text-2xl hover:-translate-y-1 ease-in-out duration-300" />
 				</a>
 			</div>
 			Designed and coded by Greta Rakauskaite 2023

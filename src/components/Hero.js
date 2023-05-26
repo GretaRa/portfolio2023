@@ -3,7 +3,6 @@ import {
 	AiFillLinkedin,
 	AiOutlineDownload,
 } from "react-icons/ai";
-
 import Skills from "./Skills";
 
 const Hero = () => {
@@ -28,9 +27,12 @@ const Hero = () => {
 						>
 							<AiFillLinkedin className="transform hover:scale-125 duration-200 ease-in-out"/>
 						</a>
-						<button className="bg-peach-200 px-2 rounded-lg text-xl lg:text-3xl border-black border-2 transform hover:scale-105 duration-200 ease-in-out">
+						<a>
+							<button className="bg-peach-200 px-2 rounded-lg text-xl lg:text-3xl border-black border-2 transform hover:scale-105 duration-200 ease-in-out">
 							Resume <AiOutlineDownload className="inline-block" />
 						</button>
+						</a>
+						
 					</span>
 				</div>
 				<img

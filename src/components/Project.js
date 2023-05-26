@@ -7,7 +7,7 @@ const Project = ({ reverse, imgSrc, title, description, github, liveDemo }) => {
 		>
 			<a href={liveDemo} target="_blank" rel="noreferrer">
 				<img
-					className=" w-[37rem] max-h-80 md:h-80 object-cover rounded shadow-gray-400 border-gray-400 border-2 shadow-md"
+					className=" w-[37rem] max-h-80 md:h-80 object-cover rounded shadow-gray-400 border-gray-400 border-2 shadow-md hover:scale-105 ease-in-out duration-300"
 					src={imgSrc}
 					alt="project website"
 				/>
