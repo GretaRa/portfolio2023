@@ -13,7 +13,7 @@ const ProjectsGrid = () => {
 					imgSrc={Fylo}
 					title={"FYLO LANDING PAGE"}
 					description={
-						"A landing page for a fictional company. Made using React and styled with Tailwind."
+						"The end product of a front-end challenge that entailed reproducing a specific design for a fictional company's landing page. Built using React and styled with Tailwind."
 					}
 					github={"https://github.com/GretaRa/fylo"}
 					liveDemo={"https://gretara.github.io/fylo/"}
@@ -22,7 +22,7 @@ const ProjectsGrid = () => {
 					imgSrc={weatherAppScreenshot}
 					title={"WEATHER APP"}
 					description={
-						"A weather app that shows the current weather and a 4-day forecast. Made with React and styled with Tailwind."
+						"Web app for visualizing the current weather of a city. It fetches weather data from OpenWeatherMap API and can show current weather based on the user's input or location. Utilizes API integration and Webpack module bundling."
 					}
 					github={"https://github.com/GretaRa/weather-app"}
 					liveDemo={"https://gretara.github.io/weather-app/"}
