@@ -4,8 +4,13 @@ import {
 	AiOutlineDownload,
 } from "react-icons/ai";
 import Skills from "./Skills";
+import resume from "../documents/Greta_Rakauskaite_Resume.pdf";
 
 const Hero = () => {
+	const onResumeClick = () => {
+		window.open(resume);
+	};
+
 	return (
 		<div className="mt-10 lg:mb-40 mb-10">
 			<section className="flex flex-col-reverse lg:flex-row justify-center lg:justify-evenly gap-4 p-11 items-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
@@ -28,7 +33,7 @@ const Hero = () => {
 							<AiFillLinkedin className="transform hover:scale-125 duration-200 ease-in-out"/>
 						</a>
 						<a>
-							<button className="bg-peach-200 px-2 rounded-lg text-xl lg:text-3xl border-black border-2 transform hover:scale-105 duration-200 ease-in-out">
+							<button onClick={onResumeClick} className="bg-peach-200 px-2 rounded-lg text-xl lg:text-3xl border-black border-2 transform hover:scale-105 duration-200 ease-in-out">
 							Resume <AiOutlineDownload className="inline-block" />
 						</button>
 						</a>
