@@ -1,7 +1,8 @@
 import Project from "./Project";
-import memoryGame from "../images/memoryGame.png";
+import memorygame from "../images/memorygame.png";
 import weatherAppScreenshot from "../images/weatherapp.png";
 import Fylo from "../images/fylo.png";
+import fashionhub from "../images/fashionhub.png";
 
 const ProjectsGrid = () => {
 	return (
@@ -10,17 +11,17 @@ const ProjectsGrid = () => {
 			<div className=" grid grid-cols-1 gap-10 m-5">
 				{/* Pass prop reverse="lg:flex-row-reverse" to every other card  */}
 				<Project
-					imgSrc={Fylo}
-					title={"FYLO LANDING PAGE"}
+					imgSrc={fashionhub}
+					title={"fashionhub"}
 					description={
-						"The end product of a front-end challenge that entailed reproducing a specific design for a fictional company's landing page. Built using React and styled with Tailwind."
+						"A simple yet functional online store developed with React.js and styled using Tailwind CSS. It sources product data from the FakeStore API, providing a clean and efficient shopping experience."
 					}
-					github={"https://github.com/GretaRa/fylo"}
-					liveDemo={"https://gretara.github.io/fylo/"}
+					github={"https://github.com/GretaRa/FashionHub"}
+					liveDemo={"https://fashion-hub-project.vercel.app/"}
 				/>
 				<Project
 					imgSrc={weatherAppScreenshot}
-					title={"WEATHER APP"}
+					title={"weather app"}
 					description={
 						"Web app for visualizing the current weather of a city. It fetches weather data from OpenWeatherMap API and can show current weather based on the user's input or location. Utilizes API integration and Webpack module bundling."
 					}
@@ -29,13 +30,23 @@ const ProjectsGrid = () => {
 					reverse="lg:flex-row-reverse"
 				/>
 				<Project
-					imgSrc={memoryGame}
-					title={"MEMORY CARDS GAME"}
+					imgSrc={Fylo}
+					title={"fylo landing page"}
+					description={
+						"The end product of a front-end challenge that entailed reproducing a specific design for a fictional company's landing page. Built using React and styled with Tailwind."
+					}
+					github={"https://github.com/GretaRa/fylo"}
+					liveDemo={"https://gretara.github.io/fylo/"}
+				/>
+				<Project
+					imgSrc={memorygame}
+					title={"memory card game"}
 					description={
 						"A simple memory game with cards featuring plant pictures. Made with React."
 					}
 					github={"https://github.com/GretaRa/memory-game"}
 					liveDemo={"https://gretara.github.io/memory-game/"}
+					reverse="lg:flex-row-reverse"
 				/>
 			</div>
 		</div>
