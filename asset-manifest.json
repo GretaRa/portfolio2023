@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio2023/static/css/main.7c5dd0ab.css",
-    "main.js": "/portfolio2023/static/js/main.d970e0f2.js",
-    "static/media/memoryGame.png": "/portfolio2023/static/media/memoryGame.ed361c729a7006d0cdca.png",
-    "static/media/fylo.png": "/portfolio2023/static/media/fylo.85c1a7abad62da35a1c2.png",
-    "static/media/weatherapp.png": "/portfolio2023/static/media/weatherapp.597fdbb926ebe786f66f.png",
+    "main.css": "/portfolio2023/static/css/main.fed7dd93.css",
+    "main.js": "/portfolio2023/static/js/main.06b7db41.js",
+    "static/media/memorygame.png": "/portfolio2023/static/media/memorygame.8e31ccdcc819fdabadb7.png",
+    "static/media/fylo.png": "/portfolio2023/static/media/fylo.1e6c3e46e50d6f25e343.png",
+    "static/media/fashionhub.png": "/portfolio2023/static/media/fashionhub.9d199725acd1110690b4.png",
+    "static/media/weatherapp.png": "/portfolio2023/static/media/weatherapp.0ad4b18ad49a1b25c01d.png",
     "static/media/Greta_Rakauskaite_Resume.pdf": "/portfolio2023/static/media/Greta_Rakauskaite_Resume.01ffb556b402899f66b1.pdf",
     "index.html": "/portfolio2023/index.html",
-    "main.7c5dd0ab.css.map": "/portfolio2023/static/css/main.7c5dd0ab.css.map",
-    "main.d970e0f2.js.map": "/portfolio2023/static/js/main.d970e0f2.js.map"
+    "main.fed7dd93.css.map": "/portfolio2023/static/css/main.fed7dd93.css.map",
+    "main.06b7db41.js.map": "/portfolio2023/static/js/main.06b7db41.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c5dd0ab.css",
-    "static/js/main.d970e0f2.js"
+    "static/css/main.fed7dd93.css",
+    "static/js/main.06b7db41.js"
   ]
 }
