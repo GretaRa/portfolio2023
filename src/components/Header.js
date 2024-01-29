@@ -3,11 +3,10 @@ import { Link } from "react-scroll";
 const Header = () => {
 	return (
 		<>
-			<header className="bg-peach-100 p-5 border-b-2 border-black">
-				<nav>
+			<nav className="bg-peach-100 p-5 border-b-2 border-black">
 					<ul className="flex md:justify-end justify-center content-center gap-10 mr-10 text-lg lg:text-xl ">
 						<li className="transform hover:scale-125 duration-300 ease-in-out cursor-pointer">
-							<Link activeClass="active" smooth spy to="home">
+							<Link activeClass="active" smooth spy to="hero">
 								Home
 							</Link>
 						</li>
@@ -17,8 +16,7 @@ const Header = () => {
 							</Link>
 						</li>
 					</ul>
-				</nav>
-			</header>
+			</nav>
 		</>
 	);
 };
