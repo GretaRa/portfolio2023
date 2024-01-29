@@ -32,12 +32,9 @@ const Hero = () => {
 						>
 							<AiFillLinkedin className="transform hover:scale-125 duration-200 ease-in-out"/>
 						</a>
-						<a>
-							<button onClick={onResumeClick} className="bg-peach-200 px-2 rounded-lg text-xl lg:text-3xl border-black border-2 transform hover:scale-105 duration-200 ease-in-out">
+						<button onClick={onResumeClick} className="bg-peach-200 px-2 rounded-lg text-xl lg:text-3xl border-black border-2 transform hover:scale-105 duration-200 ease-in-out">
 							Resume <AiOutlineDownload className="inline-block" />
 						</button>
-						</a>
-						
 					</span>
 				</div>
 				<img
