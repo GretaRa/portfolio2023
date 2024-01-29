@@ -7,14 +7,14 @@ const Header = () => {
 				<nav>
 					<ul className="flex md:justify-end justify-center content-center gap-10 mr-10 text-lg lg:text-xl ">
 						<li className="transform hover:scale-125 duration-300 ease-in-out cursor-pointer">
-						<Link activeClass="active" smooth spy to="home">
-                Home
-              </Link>
+							<Link activeClass="active" smooth spy to="home">
+								Home
+							</Link>
 						</li>
 						<li className="transform hover:scale-125 duration-300 ease-in-out cursor-pointer">
-						<Link activeClass="active" smooth spy to="projects">
-                Projects
-              </Link>
+							<Link activeClass="active" smooth spy to="projects">
+								Projects
+							</Link>
 						</li>
 					</ul>
 				</nav>

@@ -16,10 +16,20 @@ const Project = ({ reverse, imgSrc, title, description, github, liveDemo }) => {
 				<p className="text-lg font-bold">{title.toUpperCase()}</p>
 				<p className="text-zinc-600">{description}</p>
 				<div className="flex gap-5 justify-center text-lg items-center">
-					<a href={github} target="_blank" rel="noreferrer" className="hover:text-peach-300">
+					<a
+						href={github}
+						target="_blank"
+						rel="noreferrer"
+						className="hover:text-peach-300"
+					>
 						Code <AiFillGithub className="inline-block text-2xl" />
 					</a>
-					<a href={liveDemo} target="_blank" rel="noreferrer" className="hover:text-peach-300">
+					<a
+						href={liveDemo}
+						target="_blank"
+						rel="noreferrer"
+						className="hover:text-peach-300"
+					>
 						Live demo <AiOutlineRocket className="inline-block text-2xl" />
 					</a>
 				</div>
