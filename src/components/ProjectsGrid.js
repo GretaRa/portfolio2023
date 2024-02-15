@@ -22,7 +22,7 @@ const ProjectsGrid = () => {
 		},
 		{
 			id: 3,
-			title:"Fylo landing page",
+			title: "Fylo landing page",
 			src: require("../images/fylo.png"),
 			description:
 				"The end product of a front-end challenge that entailed reproducing a specific design for a fictional company's landing page. Built using React and styled with Tailwind.",
@@ -31,10 +31,10 @@ const ProjectsGrid = () => {
 		},
 		{
 			id: 4,
-			title:"Memory card game",
+			title: "Memory card game",
 			src: require("../images/memorygame.png"),
 			description:
-			"A simple memory game with cards featuring plant pictures. Made with React.",
+				"A simple memory game with cards featuring plant pictures. Made with React.",
 			github: "https://github.com/GretaRa/memory-game",
 			demoUrl: "https://gretara.github.io/memory-game/",
 		},
@@ -45,14 +45,14 @@ const ProjectsGrid = () => {
 			<p className="text-2xl lg:text-3xl p-5 text-center">My projects</p>
 			<div className=" grid grid-cols-1 gap-10 m-5">
 				{projectList.map((project) => (
-					<Project 
-					style={project.id % 2 === 0 ?  'lg:flex-row-reverse' : 'lg:flex-row'}
-					key={project.id}
-					imgSrc={project.src} 
-					title={project.title}
-					description={project.description}
-					github={project.github}
-					liveDemo={project.demoUrl}
+					<Project
+						style={project.id % 2 === 0 ? "lg:flex-row-reverse" : "lg:flex-row"}
+						key={project.id}
+						imgSrc={project.src}
+						title={project.title}
+						description={project.description}
+						github={project.github}
+						liveDemo={project.demoUrl}
 					/>
 				))}
 			</div>
