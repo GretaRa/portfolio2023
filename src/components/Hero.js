@@ -1,10 +1,7 @@
-import {
-	AiFillGithub,
-	AiFillLinkedin,
-	AiOutlineDownload,
-} from "react-icons/ai";
+import { AiOutlineDownload } from "react-icons/ai";
 import Skills from "./Skills";
 import resume from "../documents/Greta_Rakauskaite_Resume.pdf";
+import { GithubIcon, LinkedInIcon } from "./Icons";
 
 const Hero = () => {
 	const onResumeClick = () => {
@@ -20,20 +17,14 @@ const Hero = () => {
 						Front-end developer
 					</p>
 					<span className="flex gap-4 mt-2 items-center">
-						<a
-							href="https://github.com/GretaRa"
-							target={"_blank"}
-							rel="noreferrer"
-						>
-							<AiFillGithub className="transform hover:scale-125 duration-200 ease-in-out" />
-						</a>
-						<a
-							href="https://www.linkedin.com/in/greta-rakauskaite/"
-							target={"_blank"}
-							rel="noreferrer"
-						>
-							<AiFillLinkedin className="transform hover:scale-125 duration-200 ease-in-out" />
-						</a>
+						<GithubIcon
+							url={"https://github.com/GretaRa"}
+							iconStyle={"transform hover:scale-125 duration-200 ease-in-out"}
+						/>
+						<LinkedInIcon
+							url={"https://www.linkedin.com/in/greta-rakauskaite/"}
+							iconStyle={"transform hover:scale-125 duration-200 ease-in-out"}
+						/>
 						<button
 							onClick={onResumeClick}
 							className="bg-peach-200 px-2 rounded-lg text-xl lg:text-3xl border-black border-2 transform hover:scale-105 duration-200 ease-in-out"

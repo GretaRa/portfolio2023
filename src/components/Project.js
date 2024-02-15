@@ -1,4 +1,5 @@
-import { AiFillGithub, AiOutlineRocket } from "react-icons/ai";
+import { AiOutlineRocket } from "react-icons/ai";
+import { GithubIcon } from "./Icons";
 
 const Project = ({ imgSrc, title, description, github, liveDemo, style }) => {
 	return (
@@ -16,14 +17,12 @@ const Project = ({ imgSrc, title, description, github, liveDemo, style }) => {
 				<p className="text-lg font-bold">{title}</p>
 				<p className="text-zinc-600">{description}</p>
 				<div className="flex gap-5 justify-center text-lg items-center">
-					<a
-						href={github}
-						target="_blank"
-						rel="noreferrer"
-						className="hover:text-peach-300"
-					>
-						Code <AiFillGithub className="inline-block text-2xl" />
-					</a>
+					<GithubIcon
+						url={github}
+						text={"Code"}
+						linkStyle={"hover:text-peach-300"}
+						iconStyle={"inline-block text-2xl ml-2"}
+					/>
 					<a
 						href={liveDemo}
 						target="_blank"
