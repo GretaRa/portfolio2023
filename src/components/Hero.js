@@ -1,6 +1,6 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import Skills from "./Skills";
-import resume from "../documents/Greta_Rakauskaite_Resume.pdf";
+import resume from "../documents/Greta-Rakauskaite-Resume-20250617.pdf";
 import { GithubIcon, LinkedInIcon } from "./Icons";
 
 const Hero = () => {
