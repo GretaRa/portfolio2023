@@ -4,6 +4,15 @@ const ProjectsGrid = () => {
 	const projectList = [
 		{
 			id: 1,
+			title: "Trip Planner App",
+			src: require("../images/tripplanner.png"),
+			description:
+				"Full-stack trip planning app with user auth, a day-by-day itinerary builder, and live weather per destination via OpenWeatherMap. Built with React, Supabase (auth + Postgres), and deployed on Vercel. Directed using AI-assisted tooling (Cursor).",
+			github: "https://github.com/GretaRa/trip-planner",
+			demoUrl: "https://trip-planner-black-kappa.vercel.app/login",
+		},
+		{
+			id: 2,
 			title: "Fashionhub",
 			src: require("../images/fashionhub.png"),
 			description:
@@ -12,7 +21,7 @@ const ProjectsGrid = () => {
 			demoUrl: "https://fashion-hub-project.vercel.app/",
 		},
 		{
-			id: 2,
+			id: 3,
 			title: "Weather app",
 			src: require("../images/weatherapp.png"),
 			description:
@@ -21,7 +30,7 @@ const ProjectsGrid = () => {
 			demoUrl: "https://gretara.github.io/weather-app/",
 		},
 		{
-			id: 3,
+			id: 4,
 			title: "Fylo landing page",
 			src: require("../images/fylo.png"),
 			description:
@@ -30,7 +39,7 @@ const ProjectsGrid = () => {
 			demoUrl: "https://gretara.github.io/fylo/",
 		},
 		{
-			id: 4,
+			id: 5,
 			title: "Memory card game",
 			src: require("../images/memorygame.png"),
 			description:
