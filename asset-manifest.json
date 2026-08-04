@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio2023/static/css/main.58277dd9.css",
-    "main.js": "/portfolio2023/static/js/main.4eb7666e.js",
-    "static/media/memorygame.png": "/portfolio2023/static/media/memorygame.8e31ccdcc819fdabadb7.png",
-    "static/media/fylo.png": "/portfolio2023/static/media/fylo.1e6c3e46e50d6f25e343.png",
-    "static/media/fashionhub.png": "/portfolio2023/static/media/fashionhub.9d199725acd1110690b4.png",
-    "static/media/weatherapp.png": "/portfolio2023/static/media/weatherapp.a786c31e607e461f378f.png",
-    "static/media/tripplanner.png": "/portfolio2023/static/media/tripplanner.a38fd61a9110413f2560.png",
-    "static/media/CV_Greta_Rakauskaite.pdf": "/portfolio2023/static/media/CV_Greta_Rakauskaite.9eb12ed8a8c4a9d51e90.pdf",
-    "index.html": "/portfolio2023/index.html",
-    "main.58277dd9.css.map": "/portfolio2023/static/css/main.58277dd9.css.map",
-    "main.4eb7666e.js.map": "/portfolio2023/static/js/main.4eb7666e.js.map"
+    "main.css": "/greta-portfolio/static/css/main.58277dd9.css",
+    "main.js": "/greta-portfolio/static/js/main.e1cd69dc.js",
+    "static/media/memorygame.png": "/greta-portfolio/static/media/memorygame.8e31ccdcc819fdabadb7.png",
+    "static/media/fylo.png": "/greta-portfolio/static/media/fylo.1e6c3e46e50d6f25e343.png",
+    "static/media/fashionhub.png": "/greta-portfolio/static/media/fashionhub.9d199725acd1110690b4.png",
+    "static/media/weatherapp.png": "/greta-portfolio/static/media/weatherapp.a786c31e607e461f378f.png",
+    "static/media/tripplanner.png": "/greta-portfolio/static/media/tripplanner.a38fd61a9110413f2560.png",
+    "static/media/CV_Greta_Rakauskaite.pdf": "/greta-portfolio/static/media/CV_Greta_Rakauskaite.9eb12ed8a8c4a9d51e90.pdf",
+    "index.html": "/greta-portfolio/index.html",
+    "main.58277dd9.css.map": "/greta-portfolio/static/css/main.58277dd9.css.map",
+    "main.e1cd69dc.js.map": "/greta-portfolio/static/js/main.e1cd69dc.js.map"
   },
   "entrypoints": [
     "static/css/main.58277dd9.css",
-    "static/js/main.4eb7666e.js"
+    "static/js/main.e1cd69dc.js"
   ]
 }
