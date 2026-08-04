@@ -1,5 +1,4 @@
 import {
-	SiWebpack,
 	SiHtml5,
 	SiTailwindcss,
 	SiCss3,
